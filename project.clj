@@ -1,4 +1,4 @@
-(defproject objmodel-clj "0.1.0"
+(defproject objmodel-clj "0.1.0-alpha"
   :description "Experimental library for Clojure that loads Wavefront OBJ models"
   :url "https://github.com/ChillyCider/objmodel-clj"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
