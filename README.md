@@ -1,7 +1,7 @@
 # objmodel-clj
 
 [![Build Status](https://travis-ci.com/ChillyCider/objmodel-clj.svg?branch=master)](https://travis-ci.com/ChillyCider/objmodel-clj)
-![GitHub tag (latest SemVer pre-release)](https://img.shields.io/github/v/tag/ChillyCider/objmodel-clj?include_prereleases)
+![GitHub tag (latest SemVer pre-release)](https://img.shields.io/github/v/tag/ChillyCider/objmodel-clj?color=orange&include_prereleases&label=latest%20tag)
 
 A Clojure library designed to read Wavefront OBJ models.
 
