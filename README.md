@@ -1,5 +1,7 @@
 # objmodel-clj
 
+[![Build Status](https://travis-ci.com/ChillyCider/objmodel-clj.svg?branch=master)](https://travis-ci.com/ChillyCider/objmodel-clj)
+
 A Clojure library designed to read Wavefront OBJ models.
 
 ## Usage
