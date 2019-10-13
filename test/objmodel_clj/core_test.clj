@@ -35,3 +35,21 @@
           :groups {"default" {:vert-indices #{1}
                               :tex-coord-indices #{}
                               :face-indices #{}}}})))
+
+(deftest tex-coord
+  (is (= (read-model (StringReader.
+                      "vt 3 4"))
+       {:verts '()
+        :tex-coords '({:u 3.0 :v 4.0 :w 0.0})
+        :faces '()
+        :groups {"default" {:vert-indices #{}
+                            :tex-coord-indices #{1}
+                            :face-indices #{}}}}))
+  (is (= (read-model (StringReader.
+                      "vt 9 5 3"))
+       {:verts '()
+        :tex-coords '({:u 9.0 :v 5.0 :w 3.0})
+        :faces '()
+        :groups {"default" {:vert-indices #{}
+                            :tex-coord-indices #{1}
+                            :face-indices #{}}}})))
